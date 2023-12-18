@@ -31,11 +31,7 @@ header .container {
     align-items: center;
 
     gap: 235px;
-    padding: 50px 65px;
-}
-
-header .container img {
-    width: 300px;
+    padding: 50px 66px;
 }
 
 #busca-artigos {
@@ -49,7 +45,7 @@ header .container img {
 
 #busca-artigos h1 {
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 120%;
     color: var(--dark-10);
 }
@@ -67,7 +63,7 @@ header .container img {
     padding: 14px 32px;
 
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
 
     border: none;
@@ -83,4 +79,75 @@ header .container img {
 
 .btn:hover {
     background: #7054fd;
+}
+
+.recomendados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 80px 352px;
+}
+
+.recomendados .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 113px;
+}
+
+.container h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--dark-10);
+}
+
+.container .artigos {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 48px 32px;
+
+    width: 1216px;
+}
+
+.artigos .artigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 8px;
+    border: 2px solid var(--dark-40);
+
+    width: 384px;
+
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.artigo:hover {
+    transform: scale(1.1);
+}
+
+.artigo .conteudo {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px;
+    gap: 12px;
+}
+
+.conteudo h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 130%;
+    font-style: normal;
+
+    color: var(--dark-10);
+}
+
+.conteudo p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 150%;
+
+    color: var(--dark-10);
 }
