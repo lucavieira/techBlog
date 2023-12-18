@@ -199,3 +199,35 @@ form input, form textarea {
 
     background: var(--dark-60);
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 30px 0px;
+
+    background: var(--dark-40);
+}
+
+footer p {
+    font-size: .9rem;
+    font-weight: 500;
+    color: var(--dark-10);
+}
+
+footer p a {
+    text-decoration: none;
+    font-weight: 700;
+
+    color: var(--brand-color);
+
+    transition: color .5s;
+}
+
+footer p a:hover {
+    color: #4e2cfc;
+}
