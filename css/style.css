@@ -262,4 +262,42 @@ footer p a:hover {
     #busca-artigos p {
         font-size: 1.25rem;
     }
+
+    main .recomendados {
+        padding: 80px 0px;
+        margin: 0px 32px;
+    }
+
+    .recomendados h2 {
+        font-size: 1.75rem;
+    }
+
+    .recomendados .container {
+        gap: 56px;
+    }
+
+    .container .artigos {
+        width: auto;
+    }
+
+    .artigos .artigo {
+        width: 335px;
+    }
+
+    .artigo img {
+        width: 100%;
+    }
+
+    .artigo .conteudo {
+        padding: 24px 18px;
+        gap: 12px;
+    }
+
+    .conteudo h3 {
+        font-size: 1.05rem;
+    }
+
+    .conteudo p {
+        font-size: 0.875rem;
+    }
 }
