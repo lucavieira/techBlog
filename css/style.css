@@ -55,7 +55,7 @@ header .container {
 }
 
 #busca-artigos p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: var(--dark-10);
 }
 
@@ -260,7 +260,7 @@ footer p a:hover {
     }
 
     #busca-artigos p {
-        font-size: 1.25rem;
+        font-size: 1.26rem;
     }
 
     main .recomendados {
@@ -315,6 +315,30 @@ footer p a:hover {
     }
 
     .contato .formulario {
+        width: 100%;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 375px) {
+    header .container img {
+        width: 207px;
+    }
+
+    header #busca-artigos {
+        margin: 0px 24px;
+    }
+
+    #busca-artigos h1 {
+        font-size: 1.5rem;
+    }
+
+    #busca-artigos p {
+        font-size: 1rem;
+    }
+
+    #busca-artigos .btn {
         width: 100%;
     }
 }
