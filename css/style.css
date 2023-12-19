@@ -231,3 +231,35 @@ footer p a {
 footer p a:hover {
     color: #4e2cfc;
 }
+
+/* TABLET */
+
+@media (max-width: 768px) {
+    header .container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 24px;
+
+        padding: 64px 0px;
+    }
+
+    header .container img {
+        width: 330px;
+    }
+
+    #busca-artigos {
+        text-align: center;
+        align-items: center;
+        gap: 24px;
+        padding: 0px;
+        margin: 0px 151px;
+    }
+
+    #busca-artigos h1 {
+        font-size: 2rem;
+    }
+
+    #busca-artigos p {
+        font-size: 1.25rem;
+    }
+}
