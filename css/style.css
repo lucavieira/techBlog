@@ -96,7 +96,7 @@ header .container {
     gap: 113px;
 }
 
-.container h2 {
+.recomendados .container h2 {
     font-size: 2rem;
     font-weight: 600;
     color: var(--dark-10);
@@ -299,5 +299,22 @@ footer p a:hover {
 
     .conteudo p {
         font-size: 0.875rem;
+    }
+
+    .contato {
+        padding: 80px 32px;
+    }
+
+    .contato .container {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .contato .container h2 {
+        font-size: 1.75rem;
+    }
+
+    .contato .formulario {
+        width: 100%;
     }
 }
